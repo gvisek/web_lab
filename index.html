@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trgovina hranom</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navbar" class="navbar">
+            <a class="home_a" href="index.html">
+                <div class="home">
+                    <img id="slika_home" src="images/ikone/home.png" alt="home" width="50px" height="50px">
+                </div>
+            </a>
+            <div class="naslov"><h2 id="naslov">Trgovina hranom i pićem</h2></div>
+            
+            <div id="kosara" class="kosara">
+                <a href="cart.html">
+                    <img id="slika_kosara"src="images/ikone/shopping-bag.png" alt="bag_icon" width="50px" height="50px">
+
+                </a>
+
+                <div id="cart_amount" class="cart_amount"></div>
+                <img id="slika_search" src="images/ikone/search.png" alt="search" width="50px" height="50px">
+            </div>
+            
+        </div>
+        
+        <div class="wrapper_main" id="wrapper_main">
+            <div class="aside_wrapper">
+                <div class="aside">
+                    <button onclick="drawCategory(this.value)" id="jela_rostilj" value="jela_rostilj">Jela s roštilja</button>
+                    <button onclick="drawCategory(this.value)" id="riba" value="riba">Riba</button>
+                    <button onclick="drawCategory(this.value)" id="pizze" value="pizze">Pizze</button>
+                    <button onclick="drawCategory(this.value)" id="prilozi" value="prilozi">Prilozi</button>
+                    <button onclick="drawCategory(this.value)" id="salate" value="salate">Salate</button>
+                    <button onclick="drawCategory(this.value)" id="deserti" value="deserti">Deserti</button>
+                    <button onclick="drawCategory(this.value)" id="bezalkoholna_pica" value="bezalkoholna_pica">Bezalkoholna pića</button>
+                    <button onclick="drawCategory(this.value)" id="alkoholna_pica" value="alkoholna_pica">Alkoholna pića</button>
+                    <button onclick="drawCategory(this.value)" id="pivo" value="pivo">Pivo</button>
+                    <button onclick="drawCategory(this.value)" id="topli_napitci" value="topli_napitci">Topli napitci</button>
+                </div>
+                <div class="news">
+                    <h3>Kontakt</h3>
+                    <h3>Newsletter</h3>
+                    <h3>Pretplati se</h3>
+                </div>
+            </div>
+            <div class="pozdravni_tekst_bar">
+                <img src="images/ikone/brick-wall-g5da63c60f_1920.jpg" alt="restoran" width="100%" height="200px">
+                <div class="pozdravni_tekst">Dobro došli</div>
+            </div>
+            <div class="wrapper_unutra">
+                
+                <div class="main" id="main">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts/data.js" defer></script>
+<script src="scripts/main.js" defer></script>
+</html>
+<!--       _
+       .__(.)< (MEOW)
+        \___)   
+ ~~~~~~~~~~~~~~~~~~-->
+ 

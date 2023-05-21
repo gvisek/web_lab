@@ -1,0 +1,62 @@
+body{
+   
+    box-sizing: border-box;
+    background-color: blue;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+}
+.slika{
+    background-color: white;
+}
+.navtext{
+    background-color: white;
+    color:blue;
+}
+.main{
+    background-color: white;
+}
+.prozor{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    position:fixed;
+    bottom: 50px;
+    right:20px;
+    gap:20px;
+    padding-left: 20px;
+    
+}
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.accept{
+    background-color: lightskyblue;
+    width: 45%;
+    height:35px;
+    color:white;
+    border:0 solid white;
+    border-radius: 10px;
+}
+.accept:hover{
+    background-color: blue;
+}
+.reject{
+    background-color: white;
+    width: 45%;
+    height: 35px;
+    border:2px solid blue;
+    color: blue;
+    border-radius: 10px;
+
+}
+.reject:hover{
+    background-color: blue;
+    color:white;
+}
